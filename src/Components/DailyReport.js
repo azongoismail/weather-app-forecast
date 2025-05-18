@@ -38,20 +38,6 @@ const DailyReport = () => {
             ))
 
         }
-
-         {/* {daily ?(<>
-                <div className='todayData'>
-                    <p>Temperature: {daily.current.temp_c} &deg;C</p>
-                    <p>Visibility: {daily.current.vis_km} Km</p>
-                    <p>Feelslike: {daily.current.feelslike_c} &deg;C</p>
-                    <p>Humidity: {daily.current.humidity} %</p>
-                    <p>Wind direction: {daily.current.wind_dir}</p>
-                    <p>Wind Speed: {daily.current.wind_kph} Kph</p>
-                </div>
-        </>) : (<p>Loading....</p>)
-
-        } */}
-       
         </div>
        
        

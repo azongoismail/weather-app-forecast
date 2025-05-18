@@ -518,3 +518,70 @@ input {
 
 
 }
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+.bigWrapper {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 80vw;
+   
+}
+
+ .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+     align-items: center;
+    margin: 0 auto;
+    width: 90vw;
+ 
+    }
+
+
+
+    .current {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:#EBFCFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:20px;
+    border-radius: 5px;
+    border: none;
+    z-index: 999;
+    font-family: 'roboto';
+    font-size: 1.2rem;
+    width: 30vw;
+
+    }
+
+       
+ .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:#EBFCFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:40px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px #FADBC6;
+    z-index: 999;
+    font-family: 'roboto';
+    font-size: 1.2rem;
+    width: 30vw;
+
+    }
+
+}
