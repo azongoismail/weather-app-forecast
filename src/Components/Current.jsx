@@ -10,7 +10,7 @@ const [ weather, setWeather] = useState(null);
         }, [city]);
 
   return (
-    <div className='weater'>
+    <div className='weather'>
     {weather && weather.location && weather.forecast.forecastday[0]?(
         <div className='current'>
         <h2>{weather.location.name}, {weather.location.country}</h2>

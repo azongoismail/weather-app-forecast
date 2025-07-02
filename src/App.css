@@ -66,10 +66,6 @@ body {
     flex: 1;
     min-height: 100vh;
 }
-/* 
-.hourData {
-    background: #F8EDEB;
-} */
 
 .todayData {
     background: #FFFFFF;
@@ -77,9 +73,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border-radius: 5px; */
     margin-top: 20px;
-    /* box-shadow: 5px 5px 10px 10px #FADBC6; */
     width: 20vw; 
     text-align: center;
 }
@@ -90,12 +84,11 @@ body {
     min-height: 100vh;
 }
 
-.current, .info {
+.current , .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:#EBFCFF;
-
+    background:#FFFFFF;
     padding:40px;
     margin:50px auto;
     border-radius: 5px;
@@ -123,18 +116,7 @@ td {
     border-bottom: 1px solid #000;
     
 }
-/* 
-.weater {
-    margin: 20px auto;
-    border: 2px solid #FEB4A7;
-    border-radius: 5px;
-    height: 50%;
-    padding: 50px;
-    box-shadow: 2px 2px #FADBC6;
-    display: flex;
-    gap: 20px;
-    min-width: 60%;
-} */
+
 
 .inputForm {
     margin: 0 10px 10px 0;
@@ -284,16 +266,11 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:#EBFCFF;
-    /* background-image: url('./assets/background_ Image.png'); background:#F8EDEB; */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background:#FFFFFF;
     padding:40px;
     border-radius: 5px;
     border: none;
     z-index: 999;
-    /* min-height: 40vh; */
     font-family: 'roboto';
     font-size: 1.2rem;
     width: 60vw;
@@ -305,15 +282,14 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:#EBFCFF;
-    /* background-image: url('./assets/background_ Image.png'); background:#F8EDEB; */
+    background:#FFFFFF;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding:40px;
     border-radius: 5px;
     border: none;
-    box-shadow: 3px 3px #FADBC6;
+    box-shadow: 3px 3px #D9EFF7;
     z-index: 999;
     font-family: 'roboto';
     font-size: 1.2rem;
@@ -382,10 +358,7 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:#EBFCFF;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background:#FFFFFF;
     padding:40px;
     border-radius: 5px;
     border: none;
@@ -417,7 +390,7 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:#EBFCFF;
+    background:#FFFFFF;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -466,7 +439,7 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:#EBFCFF;
+    background:#FFFFFF;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -485,14 +458,14 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:#EBFCFF;
+    background:#FFFFFF;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding:40px;
     border-radius: 5px;
     border: none;
-    box-shadow: 3px 3px #FADBC6;
+    box-shadow: 3px 3px #D9EFF7;
     z-index: 999;
     font-family: 'roboto';
     font-size: 1.2rem;
@@ -546,7 +519,7 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:#EBFCFF;
+    background:#FFFFFF;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -565,14 +538,14 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:#EBFCFF;
+    background:#FFFFFF;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding:40px;
     border-radius: 5px;
     border: none;
-    box-shadow: 3px 3px #FADBC6;
+    box-shadow: 3px 3px #D9EFF7;
     z-index: 999;
     font-family: 'roboto';
     font-size: 1.2rem;
